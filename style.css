@@ -740,8 +740,8 @@ video {
   height: 24rem;
 }
 
-.h-\[100vh\] {
-  height: 100vh;
+.h-\[100\%\] {
+  height: 100%;
 }
 
 .h-\[28px\] {

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "sohne-700";
+    src: url(../fonts/sohne-700-normal.ttf);
+}
+@font-face {
+    font-family: "sohne-400";
+    src: url(../fonts/gt-super-400-normal.ttf);
+}
+
+#hero-heading{
+    font-family: "sohne-400";
+}
+
+@media (max-width: 991px) {
+    .mylinks{
+        display: none !important;
+    }
+    .my-button{
+        display: block;
+    }
+}
